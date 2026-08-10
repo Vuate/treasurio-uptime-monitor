@@ -2,8 +2,8 @@
 set -euo pipefail
 
 STATE_FILE="state.json"
-BOT_TOKEN="${TELEGRAM_BOT_TOKEN}"
-CHAT_ID="${TELEGRAM_CHAT_ID}"
+BOT_TOKEN="$(printf '%s' "${TELEGRAM_BOT_TOKEN}" | tr -d '[:space:]')"
+CHAT_ID="$(printf '%s' "${TELEGRAM_CHAT_ID}" | tr -d '[:space:]')"
 
 URLS=(
   "https://app.treasurio.xyz"
