@@ -1,10 +1,10 @@
 {
   "https://app.treasurio.xyz": {
     "status": "up",
-    "last_checked": "2026-09-11T18:27:04Z"
+    "last_checked": "2026-09-11T21:11:16Z"
   },
   "https://treasurio.xyz": {
-    "status": "up",
-    "last_checked": "2026-09-11T18:27:05Z"
+    "status": "down",
+    "last_checked": "2026-09-11T21:11:27Z"
   }
 }
